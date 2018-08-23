@@ -1,0 +1,52 @@
+{
+  "name": "typescript-node-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "tsc && nodemon ./build/index.js",
+    "build": "tsc",
+    "start": "node ./build/index.js",
+    "ts:watch": "tsc -w",
+    "test": "mocha -r ts-node/register test/**/*.spec.ts"
+  },
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "cookie-parser": "1.4.3",
+    "cors": "2.8.4",
+    "express": "4.16.2",
+    "healthcheck-middleware": "^1.0.1",
+    "http-errors": "^1.7.0",
+    "morgan": "^1.9.0",
+    "redis": "^2.8.0",
+    "swagger-ui-express": "latest",
+    "ts-node": "^6.0.3",
+    "uniqid": "^5.0.3",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "1.16.8",
+    "@types/chai": "^4.1.4",
+    "@types/cookie-parser": "1.4.1",
+    "@types/cors": "2.8.3",
+    "@types/express": "4.11.0",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "8.5.5",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nodemon": "1.14.7",
+    "tslint": "5.8.0",
+    "tslint-config-airbnb": "^5.8.0",
+    "typescript": "2.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/assadzakir/TypeScript-Node-Starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/assadzakir/TypeScript-Node-Starter/issues"
+  },
+  "homepage": "https://github.com/assadzakir/TypeScript-Node-Starter#readme"
+}
